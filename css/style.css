@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Ropa Sans', sans-serif;
+  margin: 0;
 }
 
 
@@ -150,6 +151,8 @@ h1 {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+
+  margin-bottom: 75px;
 }
 
 .your-style h2 {
@@ -193,3 +196,29 @@ h1 {
 }
 
 /* FOOTER */
+
+footer {
+  background-color: #333;
+  padding: 40px;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.map iframe {
+  width: 460px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #FFF;
+}
+
+.social-media img {
+  margin-right: 20px;
+}
